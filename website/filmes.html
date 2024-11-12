@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes Importantes para Mim</title>
+    <style>
+        /* Estilo geral */
+        body {
+            background-color: black;
+            color: aqua;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: aquamarine;
+            margin-top: 20px;
+        }
+
+        /* Botão Voltar */
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: aquamarine;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        /* Container dos filmes */
+        .movie {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid aqua;
+            border-radius: 10px;
+            background-color: #1a1a1a;
+        }
+
+        .movie h2 {
+            color: aquamarine;
+            margin-bottom: 10px;
+        }
+
+        .movie p {
+            color: aqua;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo dos GIFs */
+        .movie img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="history.back()" class="back-button">Voltar</button>
+
+    <h1>Filmes Importantes para Mim</h1>
+
+    <div class="filmes">
+        <div class="filme">
+          <h3>UP - Altas Aventuras</h3>
+          <p>Um desenho com a história mais linda do mundo!</p>
+          <video autoplay loop muted playsinline width="500">
+            <source src="videos/up.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      
+        <div class="filme">
+          <h3>Labirinto do Fauno</h3>
+          <p>Assistia muito, e isso me fez gostar de espanhol.</p>
+          <video autoplay loop muted playsinline width="500">
+            <source src="videos/fauno.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      
+        <div class="filme">
+          <h3>Brilho Eterno de Uma Mente Sem Lembraças</h3>
+          <p>A temática do filme é incrível.</p>
+          <video autoplay loop muted playsinline width="500">
+            <source src="videos/brilho.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      
+        <div class="filme">
+          <h3>Forrest Gump</h3>
+          <p>Esse filme é lindo!</p>
+          <video autoplay loop muted playsinline width="500">
+            <source src="videos/forrest.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      
+        <div class="filme">
+          <h3>Pequena Miss Sunshine</h3>
+          <p>Assisti muito na minha infância.</p>
+          <video autoplay loop muted playsinline width="500">
+            <source src="videos/miss.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </div>
+      
+</body>
+</html>
